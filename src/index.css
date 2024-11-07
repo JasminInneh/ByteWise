@@ -6,28 +6,37 @@ body {
 h1, h2 {
   color: #ff5c5c;
 }
-/* hero */
+/* Hero Section Styling */
 .hero {
-  background-color: #0a2540; /* deep navy */
+  background-color: #0a2540; /* Navy */
   color: #ffffff;
   padding: 50px 0;
   text-align: center;
 }
+
 .hero h1 {
   font-size: 2.5rem;
+  margin-bottom: 10px;
   color: #ffffff;
 }
+
 .hero p {
   font-size: 1.2rem;
   color: #cccccc;
 }
+
 .hero button {
-  background-color: #ff6b6b; /* a bright coral or similar color */
+  background-color: #ff6b6b; /* Coral */
   color: #ffffff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
 }
 
+.hero button:hover {
+  background-color: #ff4a4a; /* Slightly darker coral for hover effect */
+}
