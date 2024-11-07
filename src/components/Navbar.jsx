@@ -15,26 +15,32 @@ const Navbar = () => {
 };
 
 const Nav = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background: #1a1a1a;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+background: #081d33; /* Slightly darker navy */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 `;
 
+
 const Logo = styled.h1`
-  color: #ff5c5c;
+  color: #ffd700; /* Gold color for the logo */
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 `;
 
 const NavLinks = styled.div`
   a {
-    color: white;
+    color: #e0e0e0; /* Light grey links */
     margin: 0 1rem;
     text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
   }
   a:hover {
-    color: #ff5c5c;
+    color: #ff8c42; /* Warm orange for hover effect */
   }
 `;
 

@@ -1,14 +1,17 @@
+/* Base Styling */
 body {
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: #0a2540; 
+  color: #e0e0e0; 
   font-family: 'Poppins', sans-serif;
 }
+
 h1, h2 {
-  color: #ff5c5c;
+  color: #ffd700; 
 }
+
 /* Hero Section Styling */
 .hero {
-  background-color: #0a2540; /* Navy */
+  background-color: #0a2540; 
   color: #ffffff;
   padding: 50px 0;
   text-align: center;
@@ -17,16 +20,16 @@ h1, h2 {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #ffd700; 
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #cccccc;
+  color: #b3c2d1; 
 }
 
 .hero button {
-  background-color: #ff6b6b; /* Coral */
+  background-color: #ff8c42; 
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -38,5 +41,6 @@ h1, h2 {
 }
 
 .hero button:hover {
-  background-color: #ff4a4a; /* Slightly darker coral for hover effect */
+  background-color: #e6753f; 
 }
+

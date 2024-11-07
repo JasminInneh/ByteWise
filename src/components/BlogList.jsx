@@ -1,4 +1,3 @@
-// BlogList.jsx
 import React, { useState, useEffect } from 'react';
 import BlogCard from './BlogCard';
 import '../BlogList.css';
@@ -7,7 +6,6 @@ const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    // Add more sample blog data
     setBlogs([
       { title: 'Learn React Basics', summary: 'A beginner-friendly guide to React.', date: 'Nov 2024' },
       { title: 'Why Coding Blogs Matter', summary: 'Exploring the value of blogging in tech.', date: 'Oct 2024' },
@@ -18,6 +16,7 @@ const BlogList = () => {
 
   return (
     <div className="blog-list">
+       <h2 className="blog-list-title">Latest Blogs</h2> 
       {blogs.map((blog, index) => (
         <BlogCard key={index} {...blog} />
       ))}
