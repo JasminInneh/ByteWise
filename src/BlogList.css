@@ -1,7 +1,7 @@
 /* Blog List Container */
 .blog-list-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusting grid */
   gap: 30px;
   padding: 40px 20px;
   background-color: #f8f8f8;
@@ -15,10 +15,14 @@
   text-align: center;
   margin-bottom: 40px;
 }
+
 /* Blog List Container */
 .blog-list {
   padding: 40px 20px;
   background-color: #f8f8f8;
+  display: grid; /* Make sure this is defined for grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* This will allow cards to be responsive */
+  gap: 20px; /* Space between cards */
 }
 
 /* Title Styling for Blog List */
@@ -28,5 +32,12 @@
   color: #0a2540; /* Navy color for title */
   text-align: center;
   margin-bottom: 40px;
+}
+
+/* Responsive Adjustment for Larger Screens */
+@media (min-width: 1024px) {
+  .blog-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards in a row on larger screens */
+  }
 }
 

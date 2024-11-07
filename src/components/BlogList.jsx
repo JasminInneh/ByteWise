@@ -16,7 +16,6 @@ const BlogList = () => {
 
   return (
     <div className="blog-list">
-       <h2 className="blog-list-title">Latest Blogs</h2> 
       {blogs.map((blog, index) => (
         <BlogCard key={index} {...blog} />
       ))}
@@ -25,5 +24,6 @@ const BlogList = () => {
 };
 
 export default BlogList;
+
 
 
