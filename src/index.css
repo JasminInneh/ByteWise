@@ -6,4 +6,28 @@ body {
 h1, h2 {
   color: #ff5c5c;
 }
+/* hero */
+.hero {
+  background-color: #0a2540; /* deep navy */
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+.hero button {
+  background-color: #ff6b6b; /* a bright coral or similar color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
 
